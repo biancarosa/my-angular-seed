@@ -51,7 +51,7 @@ gulp.task('copy-fonts', ['clean'], function () {
 gulp.task('copy-config', function () {
     var environment = argv.env || 'development';
 	return gulp.src('config/'+environment+'/config.json')
-        .pipe(ngConstant({name: 'gaiaCorretor.config'}))
+        .pipe(ngConstant({name: 'myApp.config'}))
 		.pipe(gulp.dest('app'));
 });
 
