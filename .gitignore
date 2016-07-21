@@ -1,0 +1,15 @@
+logs/*
+!.gitkeep
+node_modules/
+bower_components/
+tmp
+.DS_Store
+.idea
+build/
+coverage/
+test_out/
+.brackets.json
+config/development/
+app/config.js
+selenium/
+npm-debug.log
